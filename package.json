@@ -1,0 +1,24 @@
+{
+  "name": "action-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "block-basekit-cli test",
+    "build": "block-basekit-cli build",
+    "preview": "block-basekit-cli preview",
+    "upload": "block-basekit-cli upload"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@lark-opdev/block-basekit-cli": "^1.0.0"
+  },
+  "dependencies": {
+    "@lark-opdev/block-basekit-server-api": "^1.0.0",
+    "google-auth-library": "^9.4.1",
+    "googleapis": "^129.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4"
+  }
+}
